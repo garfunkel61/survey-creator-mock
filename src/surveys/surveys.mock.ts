@@ -1,69 +1,69 @@
 export const META_SURVEYS = [
   {
     id: '12334dasf234',
-    name: 'BeSafe Norway',
+    name: 'Survey-name Norway',
     created: '1527582115423',
     type: '360',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '123fds34dasf234',
-    name: 'BeSafe Germany',
+    name: 'Survey-name Germany',
     created: '1527582115423',
     type: '360',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '123fds34da4',
-    name: 'BeSafe Poland',
+    name: 'Survey-name Poland',
     created: '1527582115423',
     type: 'Starter',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '1ds34dasf24',
-    name: 'BeSafe Sweden',
+    name: 'Survey-name Sweden',
     created: '1522552115423',
     type: 'Custom',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '123sdf34dasf234',
-    name: 'BeSafe USA',
+    name: 'Survey-name USA',
     created: '1527582115423',
     type: '360',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '123fds34dasf23784',
-    name: 'BeSafe Sweden',
+    name: 'Survey-name Sweden',
     created: '1527582115423',
     type: '360',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '123fd678s34da4',
-    name: 'BeSafe Japan',
+    name: 'Survey-name Japan',
     created: '1527582115423',
     type: 'Starter',
-    client: 'besafe'
+    client: 'client-name'
   },
   {
     id: '1ds3764dasf24',
-    name: 'BeSafe China',
+    name: 'Survey-name China',
     created: '1527582115423',
     type: 'Custom',
-    client: 'besafe'
+    client: 'client-name'
   }
 ];
 
 export const SURVEYS = [
   {
     id: '12334dasf234',
-    name: 'BeSafe Norway',
+    name: 'Survey-name Norway',
     created: '1527582115423',
     type: '360',
-    client: 'besafe',
+    client: 'client-name',
     questions: []
   }
 ]
