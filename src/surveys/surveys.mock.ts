@@ -1,69 +1,141 @@
 export const META_SURVEYS = [
   {
-    id: '12334dasf234',
+    id: '1',
     name: 'Survey-name Norway',
-    created: '1527582115423',
-    type: '360',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' }
   },
   {
-    id: '123fds34dasf234',
+    id: '2',
     name: 'Survey-name Germany',
-    created: '1527582115423',
-    type: '360',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' }
   },
   {
-    id: '123fds34da4',
+    id: '3',
     name: 'Survey-name Poland',
-    created: '1527582115423',
-    type: 'Starter',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Starter',
+    client: { name: 'client-name' }
   },
   {
-    id: '1ds34dasf24',
+    id: '4',
     name: 'Survey-name Sweden',
-    created: '1522552115423',
-    type: 'Custom',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Custom',
+    client: { name: 'client-name' }
   },
   {
-    id: '123sdf34dasf234',
+    id: '5',
     name: 'Survey-name USA',
-    created: '1527582115423',
-    type: '360',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' }
   },
   {
-    id: '123fds34dasf23784',
+    id: '6',
     name: 'Survey-name Sweden',
-    created: '1527582115423',
-    type: '360',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' }
   },
   {
-    id: '123fd678s34da4',
+    id: '7',
     name: 'Survey-name Japan',
-    created: '1527582115423',
-    type: 'Starter',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Starter',
+    client: { name: 'client-name' }
   },
   {
-    id: '1ds3764dasf24',
+    id: '8',
     name: 'Survey-name China',
-    created: '1527582115423',
-    type: 'Custom',
-    client: 'client-name'
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Custom',
+    client: { name: 'client-name' }
   }
 ];
 
 export const SURVEYS = [
   {
-    id: '12334dasf234',
+    id: '1',
     name: 'Survey-name Norway',
-    created: '1527582115423',
-    type: '360',
-    client: 'client-name',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '2',
+    name: 'Survey-name Germany',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '3',
+    name: 'Survey-name Poland',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Starter',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '4',
+    name: 'Survey-name Sweden',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Custom',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '5',
+    name: 'Survey-name USA',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '6',
+    name: 'Survey-name Sweden',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: '360',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '7',
+    name: 'Survey-name Japan',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Starter',
+    client: { name: 'client-name' },
+    questions: []
+  },
+  {
+    id: '8',
+    name: 'Survey-name China',
+    description: 'Lorem ipsum dolor sit amet',
+    date_created: '2018-05-30',
+    product_level: 'Custom',
+    client: { name: 'client-name' },
     questions: []
   }
 ]
