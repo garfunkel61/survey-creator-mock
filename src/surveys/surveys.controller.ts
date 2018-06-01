@@ -1,4 +1,4 @@
-import { Get, Post, Delete, Put, Controller, Body, HttpCode } from '@nestjs/common';
+import { Get, Post, Delete, Put, Controller, Body, Param, HttpCode } from '@nestjs/common';
 
 // Local models
 import { MetaSurveyDto, SurveyDto }  from './surveys.model';
@@ -15,7 +15,7 @@ export class SurveysController {
   localSurveys: SurveyDto[] = SURVEYS;
 
   @Get('surveys')
-  getClientSurveys(): MetaSurveyDto[] {
+  getMetaSurveys(): MetaSurveyDto[] {
     return this.localMetaSurveys;
   }
 
@@ -26,6 +26,12 @@ export class SurveysController {
 
     this.localMetaSurveys.push(metaSurvey);
     return metaSurvey;
+  }
+
+  @Get('survey/:id')
+  getSurvey(@Param() params): SurveyDto {
+    const surveyIdx = this.localSurveys.findIndex(sur => sur.id === String(params.id));
+    return this.localSurveys[surveyIdx];
   }
 
   @Delete('survey')
