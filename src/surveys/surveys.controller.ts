@@ -20,7 +20,8 @@ export class SurveysController {
   @Post('surveys')
   createMetaSurvey(@Body() metaSurvey: MetaSurveyDto): MetaSurveyDto {
     metaSurvey.date_created = String(new Date());
-    metaSurvey.id = String(Number(this.localMetaSurveys[this.localMetaSurveys.length-1].id) + 1);
+    metaSurvey.id = this.localMetaSurveys.length ?
+      String(Number(this.localMetaSurveys[this.localMetaSurveys.length-1].id) + 1) : String(1);
     this.localMetaSurveys.push(metaSurvey);
 
     const newSurvey = {
